@@ -23,7 +23,7 @@ SOFTWARE.
 
 önemli açıklama bu kod Kong tarafından yazılmıştır izin verilmeyen kişiler tarafından paylaşılması kesinlikte yasaktır
 nasıl çalıştırılır;
-python un kendi sitesinde python u indirin ardından cmd yi açın sonra dosya konumuna girin ardından python saraç.py yazın Not:Tokeni girmeyi unutmayın
+python un kendi sitesinde python u indirin ardından cmd yi açın sonra dosya konumuna girin ardından python beyin.py yazın Not:Tokeni girmeyi unutmayın
 Dosya konumundan nasıl açılır?
 Cevap: https://prnt.sc/rh3v1j burdaki yeri ctrl+a yapıp siliyoruz ardından cmd yazıyoruz
 '''
@@ -48,7 +48,7 @@ def prefix(bot, message):
     # eğer bot etiketlenirse prefix lsitesini atar
     return commands.when_mentioned_or(*prefixler)(bot, message)
 
-komutlar = ['cogs.emirhan'] 
+komutlar = ['cogs.deneme'] 
 '''
 üstdeki komutlar kısmında cogs da açtığınız py dosyasının ismini gireceksiniz örneğin;
 komutlar = ['cogs.emirhan',
