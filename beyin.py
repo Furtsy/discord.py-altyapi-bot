@@ -79,5 +79,5 @@ async def on_ready():
     print('-------------------------')    
     await bot.change_presence(status=discord.Status.online, activity=discord.Game("Video")) #oynuyoru buradn değişebilirsiniz
 
-# burdan token girebilrisiniz Emirhan Saraç/Kong
-bot.run('NjgwNjYzNjI2NTExNTQ4NDU5.XlFOTw.4h22ctlkRvFyTIuFXWJv8Uyf9E4')
+# burdan token girebilrisiniz Kong
+bot.run('')
