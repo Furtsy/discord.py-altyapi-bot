@@ -38,7 +38,7 @@ import platform
 def prefix(bot, message):
     
     # gayet basit bir şekilde prefix eklenebiliyor
-    prefixler = ['!', 'saraç!', 'k!']
+    prefixler = ['!', '!!', 'k!']
 
     # mesaj dm den mi yoksa sunucudan mı gelmiş ona bakar
     if not message.guild:
