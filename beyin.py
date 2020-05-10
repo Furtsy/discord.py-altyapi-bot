@@ -45,7 +45,7 @@ def prefix(bot, message):
         # sadece dm için ? kullanmaya açık
         return '?'
 
-    # eğer bot etiketlenirse prefix lsitesini atar
+  
     return commands.when_mentioned_or(*prefixler)(bot, message)
 
 komutlar = ['cogs.deneme'] 
